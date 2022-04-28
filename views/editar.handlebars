@@ -1,0 +1,32 @@
+<div class="container-cadastro">
+
+    
+    
+    <form action="/update" method="post">
+    <input type="hidden" name="id" value="{{book.id}}">
+
+    <div>
+    <label for="nome">Nome <br> 
+        <input value="{{book.nome}}" type="text" minlength="1" name="nome" placeholder="Digite o nome do livro">
+    </label>
+    </div>
+
+    <div>
+    <label for="author">Author: <br>
+        <input value="{{book.author}}" type="text" minlength="1" name="author" placeholder="Digite o nome do author">
+    </label>
+    </div>
+
+
+    <div>
+    <label for="qtp">Quantidade de páginas: <br> 
+        <input value="{{book.qtp}}" type="number" min="1" minlength="1" name="qtp" placeholder="Digite a quantidade de páginas">
+    </label>
+    </div>
+
+    <div>
+        <input type="submit" value="Atualizar dados do livros">
+    </div>
+    
+    </form>
+</div>

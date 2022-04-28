@@ -1,0 +1,36 @@
+<div class="container-book">
+{{#each books}}
+
+    <div class="card-book">
+    <div >
+        <p class="book-titulo">Nome 
+            <p>{{this.nome}}</p>
+        </p>
+    </div>
+
+    <div>
+        <p class="book-titulo">Author 
+            <p>{{this.author}}</p>
+        </p>
+    </div>
+
+    <div >
+        <p class="book-titulo">Páginas 
+            <p>{{this.qtp}}</p>
+        </p>
+    </div>
+
+    <div class="book-editar" >
+        <a href="/editar/{{this.id}}">Editar livro</a>
+    </div>
+
+        <div class="book-delete" >
+        <a href="/delete/{{this.id}}">Exluir livro</a>
+    </div>
+
+
+</div>
+
+{{/each}}
+
+</div>

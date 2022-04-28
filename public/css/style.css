@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link, a:visited,  a:hover, a:active{
+    color: #000000;
+    text-decoration: none;
+}
+.links-main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 192, 214);
+    height: 50px;
+
+}
+.links-main a{
+    margin-left: 50px;
+}
+
+
+.container-book{
+    text-align: center;
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-book{
+    border-radius: 20px;
+    margin: 15px;
+    background-color: rgb(190, 126, 249);
+    padding: 10px;
+}
+.book-titulo, .book-editar,.book-delete{
+    min-width: 200px;
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+.book-editar a{
+    color: rgb(239, 225, 30);
+
+}
+
+.book-delete a{
+    color: rgb(121, 13, 13);
+
+}
+
+
+.container-cadastro{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-cadastro div{
+    margin:30px 0px;
+}
