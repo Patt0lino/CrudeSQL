@@ -1,5 +1,5 @@
 # LivrosCRUDE
-Projeto simples de operações CRUDE utilizando node, express, handlebars, xampp e MySQL.
+Projeto simples de operações CRUDE utilizando node, express, handlebars, xampp e SQL.
 
 Estrutura da tabela utilizada no projeto
 
